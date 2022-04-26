@@ -1,0 +1,19 @@
+@import '../../styles/settings.scss';
+
+.root {
+  min-height: 10%;
+  display: flex;
+
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .navLink {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,14 @@
+@import '../../styles/settings.scss';
+
+.root {
+  background: #282c34;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  .footer {
+    margin-top: auto;
+  }
+}

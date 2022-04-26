@@ -1,0 +1,13 @@
+@import '../../styles/settings.scss';
+
+.root {
+  background: #1f2329;
+  display: flex;
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+}
