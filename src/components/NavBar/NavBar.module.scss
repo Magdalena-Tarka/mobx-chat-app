@@ -1,13 +1,27 @@
 @import '../../styles/settings.scss';
 
 .root {
-  min-height: 10%;
   display: flex;
+  padding: 0.8rem 0;
 
   .container {
     display: flex;
+  }
+
+  .nav {
+    display: inline-flex;
     align-items: center;
-    gap: 2rem;
+    width: 100%;
+
+    .nav_left {
+      display: inline-flex;
+      gap: 2rem;
+    }
+    .nav_right {
+      display: inline-flex;
+      gap: 1rem;
+      margin-left: auto;
+    }
   }
 
   .navLink {
@@ -15,5 +29,12 @@
     color: #fff;
     text-transform: uppercase;
     font-size: 0.9rem;
+  }
+
+  .currentUser {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #7ee1a7;
+    text-transform: capitalize;
   }
 }

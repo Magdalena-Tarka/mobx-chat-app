@@ -1,3 +1,24 @@
 @import '../../../styles/settings.scss';
 
-//.root {}
+.root {
+  flex: 1;
+
+  .container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+  }
+
+  .onlineUsersList {
+    width: 20%;
+    height: 80vh;
+    min-height: 300px;
+  }
+
+  .chatRoom {
+    width: 75%;
+    height: 80vh;
+    min-height: 300px;
+  }
+}

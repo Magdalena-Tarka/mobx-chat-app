@@ -1,0 +1,22 @@
+@import '../../../../styles/settings.scss';
+
+.root {
+  display: flex;
+  flex-direction: column;
+
+  h5 {
+    margin-bottom:1rem;
+    margin-left: 1rem;
+  }
+
+  .usersListWrapper {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    flex: 1;
+
+    p {
+      margin: 0;
+    }
+  }
+}
